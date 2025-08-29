@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List</title>
+    <!-- Link to CSS file for styling -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Main container for ToDo app -->
+    <main class="todo-app">
+      <!-- App title -->
+      <h1>ToDo List</h1>
+
+      <!-- New task input section -->
+      <div class="todo-input">
+        <!-- Task text input field -->
+        <input type="text" id="taskInput" placeholder="Enter a new task..." />
+        <!-- Date selection field -->
+        <input type="date" id="taskDate" />
+        <!-- Time selection field -->
+        <input type="time" id="taskTime" />
+        <!-- Add task button -->
+        <button id="addTaskBtn">Add Task</button>
+      </div>
+
+      <!-- Search section -->
+      <div class="todo-search">
+        <input type="text" id="searchInput" placeholder="Search tasks..." />
+      </div>
+
+      <!-- Tasks section title -->
+      <span class="task-title">Tasks</span>
+
+      <!-- Filter buttons: All, Active, Completed -->
+      <div class="todo-filters">
+        <button class="filter-btn active" data-filter="all">
+          All (<span class="count-all">0</span>)
+        </button>
+        <button class="filter-btn" data-filter="active">
+          Active (<span class="count-active">0</span>)
+        </button>
+        <button class="filter-btn" data-filter="completed">
+          Completed (<span class="count-completed">0</span>)
+        </button>
+      </div>
+
+      <!-- Task list (ul) -->
+      <ul class="todo-list">
+        <li class="todo-empty">No tasks yet!</li>
+
+        <!-- Sample list with two tasks -->
+        <!-- <li class="todo-item" draggable="true" data-id="1">
+          <div class="todo-item__left">
+            <input type="checkbox" class="todo-checkbox" />
+            <span class="todo-item__text">Task 1</span>
+            <span class="todo-item__date">2025-08-22 12:00</span>
+          </div>
+          <div class="todo-item__actions">
+            <button class="btn-edit">Edit</button>
+            <button class="btn-delete">Delete</button>
+          </div>
+        </li>
+
+        <li class="todo-item" draggable="true" data-id="2">
+          <div class="todo-item__left">
+            <input type="checkbox" class="todo-checkbox" checked />
+            <span class="todo-item__text completed">Task 2</span>
+            <span class="todo-item__date completed">2025-08-23 15:00</span>
+          </div>
+          <div class="todo-item__actions">
+            <button class="btn-edit" onclick="editeTaske()">Edit</button>
+            <button class="btn-delete" onclick="deleteTaske()">Delete</button>
+          </div>
+        </li> -->
+      </ul>
+    </main>
+
+    <!-- Dark/Light mode button -->
+    <button id="darkModeBtn">Dark Mode</button>
+
+    <!-- JavaScript file for the app -->
+    <script src="script.js"></script>
+  </body>
+</html>
