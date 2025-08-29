@@ -18,21 +18,11 @@ A simple and interactive ToDo List application with Dark/Light Mode, Drag & Drop
 
 ## Screenshots
 
-### 1. Add New Task
-![Screenshot 1](1.png)  
-Adding a new task with title, date, and time.
-
-### 2. Task List with Multiple Tasks
-![Screenshot 2](2.png)  
-Viewing the task list with all added tasks.
-
-### 3. Edit Task
-![Screenshot 3](3.png)  
-Editing an existing task by double-clicking on its title.
-
-### 5. Notifications
-![Screenshot 5](5.png)  
-Notification reminder showing for upcoming tasks.
+![Screenshot 1](screenshots/1.png)  
+![Screenshot 2](screenshots/2.png)  
+![Screenshot 3](screenshots/3.png)  
+![Screenshot 4](screenshots/4.png)  
+![Screenshot 5](screenshots/5.png)  
 
 ---
 
@@ -40,4 +30,4 @@ Notification reminder showing for upcoming tasks.
 
 1. Clone the repository:  
 ```bash
-git clone <repository-url>
+git clone https://github.com/salehinezhad/todo-app.git
