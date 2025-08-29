@@ -18,14 +18,11 @@ A simple and interactive ToDo List application with Dark/Light Mode, Drag & Drop
 
 ## Screenshots
 
-## Screenshots
-
 <div style="text-align: center;">
-  <img src="screenshots/1.png" width="600" /> 
-  <img src="screenshots/2.png" width="600" /> 
-  <img src="screenshots/gif.gif" width="400" /> 
-</div>  این خوبه
-
+  <img src="screenshots/1.png" width="800" /><br>
+  <img src="screenshots/2.png" width="800" /><br>
+  <img src="screenshots/gif.gif" width="600" />
+</div>
 
 ---
 
